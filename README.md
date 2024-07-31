@@ -4,6 +4,14 @@
 
 ![preview](./public/docs/preview.gif)
 
+## 🎮 Acesse o Projeto Online
+
+Você pode acessar a versão online do projeto de Tic Tac Toe clicando no link abaixo:
+
+[react-challenge-tic-tac-toe.vercel.app](https://react-challenge-tic-tac-toe.vercel.app/)
+
+O projeto está hospedado na plataforma Vercel.
+
 ## 📋 Descrição
 
 Este projeto é uma implementação funcional do jogo da velha (Tic Tac Toe). O objetivo é desenvolver um jogo completo que permita a dois jogadores competirem em um tabuleiro 3x3. O projeto utiliza técnicas de estilização de sua escolha, como CSS Modules, SASS, ou Styled Components.
