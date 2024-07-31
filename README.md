@@ -15,6 +15,20 @@ Este projeto é uma implementação funcional do jogo da velha (Tic Tac Toe). O 
 - [x] **Preenchimento de Jogadas**: Ao clicar em um quadrado, ele será preenchido com a jogada do jogador atual.
 - [x] **Finalização do Jogo**: O jogo avisa quando um jogador vence ou quando ocorre um empate (velha).
 
+## 🧠 Abordagens Utilizadas
+
+### Gerenciamento de Estado com `useReducer`
+
+Para lidar com o estado da aplicação, optei por utilizar o hook `useReducer` em vez do `useState`. Essa decisão foi tomada para abstrair as regras do jogo e centralizar as ações do usuário em um único local. Com isso, consegui facilitar a manutenção e o entendimento do código, uma vez que todas as mudanças de estado são tratadas através de um único reducer, que gerencia o fluxo das ações de forma previsível e organizada.
+
+### Animações e Efeitos Visuais
+
+Para melhorar a experiência do usuário, implementei animações CSS utilizando keyframes que são ativadas quando um jogador vence. Além disso, utilizei a biblioteca [react-confetti](https://www.npmjs.com/package/react-confetti) para incrementar as animações de celebração, adicionando um toque visual dinâmico e festivo ao jogo.
+
+---
+
+Essas abordagens foram escolhidas para proporcionar uma experiência de usuário mais fluida e visualmente atraente, ao mesmo tempo em que mantêm o código limpo e modular.
+
 ## 🔨 Como Rodar o Projeto
 
 1. **Clone o repositório**:
