@@ -1,5 +1,7 @@
 # Desafio Técnico - Tic Tac Toe
 
+![preview](./public/docs/preview.gif)
+
 ## Descrição
 
 Este projeto é uma implementação funcional do jogo da velha (Tic Tac Toe). O objetivo é desenvolver um jogo completo que permita a dois jogadores competirem em um tabuleiro 3x3. O projeto utiliza técnicas de estilização de sua escolha, como CSS Modules, SASS, ou Styled Components.
@@ -16,13 +18,13 @@ Este projeto é uma implementação funcional do jogo da velha (Tic Tac Toe). O 
 1. **Clone o repositório**:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/bmenegidio/react-challenge-tic-tac-toe.git
 ```
 
 2. **Navegue até o diretório do projeto**:
 
 ```bash
-cd SEU_REPOSITORIO
+cd react-challenge-tic-tac-toe
 ```
 
 3. **Instale as dependências**:
