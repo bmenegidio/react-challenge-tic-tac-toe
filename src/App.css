@@ -1,0 +1,56 @@
+@keyframes winning-position {
+  from {
+    font-size: 100%;
+    opacity: 0.6;
+  }
+  to {
+    font-size: 230%;
+    opacity: 1;
+  }
+}
+
+:root {
+  --default-radius: 20px;
+  --default-grid-width: 70px;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.board-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  .board-game {
+    border: 15px solid var(--accent-color);
+    border-radius: var(--default-radius);
+    padding: var(--default-radius);
+    margin-top: 10px;
+
+    .board-row {
+      display: grid;
+      grid-template-columns: var(--default-grid-width) var(--default-grid-width) var(
+          --default-grid-width
+        );
+      gap: 15px;
+
+      button {
+        width: var(--default-grid-width);
+        height: var(--default-grid-width);
+
+        span {
+          font-size: 100%;
+
+          &.winning-position {
+            animation: winning-position 1.5s ease forwards;
+          }
+        }
+      }
+    }
+  }
+}
